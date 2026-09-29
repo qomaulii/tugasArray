@@ -25,4 +25,8 @@ public class Bank {
 
         return null;
     }
+
+    public Customer[] getCustomers() {
+        return customers;
+    }
 }
